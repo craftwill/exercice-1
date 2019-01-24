@@ -2,9 +2,9 @@ body{
     background-color: antiquewhite;
 }
 
-p, h1, h2 {
+p {
     color: red;
-    font-size: 33px;
+    font-size: 15px;
     padding: 5px;
     text-align: center;
 }
@@ -12,6 +12,9 @@ p, h1, h2 {
 h1, h2{
     color: black;
     font-weight: 1000;
+    font-size: 33px;
+    padding: 5px;
+    text-align: center;
 }
 
 a{
@@ -42,13 +45,18 @@ header{
 }
 
 main{
+    font-size: 15px;
     height: 33%;
     border: 2px solid black;
     border-radius: 15px;
+    background-color: azure;
 }
 
 footer{
+    font-size: 11px;
+    color: white;
     height: 34%;
     border: 2px solid black;
     border-radius: 15px;
+    background-color: black;
 }
