@@ -2,7 +2,28 @@ body{
     background-color: antiquewhite;
 }
 
-p{
+p, h1, h2 {
     color: red;
     font-size: 33px;
+    padding: 5px;
+    text-align: center;
+}
+
+h1, h2{
+    color: black;
+    font-weight: 1000;
+}
+
+header{
+    height: 33%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+main{
+    height: 33%;
+}
+
+footer{
+    height: 34%;
 }
